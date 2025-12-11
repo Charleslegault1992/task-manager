@@ -35,6 +35,7 @@ class TaskManager:
             print(f"{i}. {task}")
 
 
+
 def remove_task(self, index):
     """Supprime une tâche par son index."""
     if 0 <= index < len(self.tasks):
